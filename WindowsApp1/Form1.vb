@@ -13,7 +13,7 @@ Public Class frmMain
         Dim mc As MatchCollection = Regex.Matches(text, expr)
         Dim m As Match
         For Each m In mc
-            tboxResults.Text = tboxResults.Text & vbCrLf & m.ToString()
+            tboxResults.Text = tboxResults.Text & m.ToString() & vbCrLf
         Next m
     End Sub
 
@@ -27,7 +27,6 @@ Public Class frmMain
             Me.Height = 600
             lblResults.Visible = True
             tboxResults.Visible = True
-            tboxResults.Text = "Matches found.."
             btnReset.Visible = True
             btnTestExpression.Enabled = False
             showMatch(tboxTestData.Text, tboxTestExpression.Text)

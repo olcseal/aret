@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WindowsApp1.exe" size="18856">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WindowsApp1.exe" size="18344">
       <assemblyIdentity name="WindowsApp1" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Hei7yptH6X3TJ7Q299yK6YZ6F4kYUdK2vCp//sdG6AU=</dsig:DigestValue>
+        <dsig:DigestValue>x1vQuH/2+sbEFD9ONbyF8StTc/Y7H6pAYlFJ9Ls5Yt8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
